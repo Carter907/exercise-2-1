@@ -2,10 +2,10 @@
 
 public class Program
 {
-    private const double unitFactor = 2.54;
+
     public static void Main(String[] args)
     {
-        Console.WriteLine("enter inches");
+        double unitFactor = 2.54;
         var inches = 15994;
         double centimeters = inches * unitFactor;
         Console.WriteLine($"{inches} inches is {centimeters} centimeters");
