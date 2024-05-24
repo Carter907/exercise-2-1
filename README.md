@@ -6,7 +6,7 @@ BEGIN
 		Main METHOD
 			PRINT
         - "enter inches"
-      VAR inches = (TO DOUBLE) PROMPT FOR INPUT
+      VAR inches = [Unit Test Value]
       VAR centimeter = inches * unitFactor
       PRINT
         - inches + " inches is " + centimeters + " centimeters" 
